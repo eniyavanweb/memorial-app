@@ -55,8 +55,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "300kb",
+                  "maximumError": "400kb"
                 }
               ]
             }
@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "memorial-mo"
+  "defaultProject": "memorial-mo",
+  "cli": {
+    "analytics": "852f71de-45ef-4533-bdc8-d9305ad287ec"
+  }
 }

@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins, sans-serif;
+}
+
+.head-img .logo {
+    padding-left: 160px;
+}
+
+.headrd-icon {
+    position: relative;
+    right: 12rem;
+    bottom: 3rem;
+}
+
+.header-1 {
+    background-image: url(../assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 115vh;
+}
+
+.head-img {
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    padding: 21px;
+}
+
+.links {
+    float: right;
+    display: flex;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.links ul {
+    display: flex;
+    position: relative;
+    top: -47px;
+    right: 223px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    padding-left: 36px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.links ul li a:hover {
+    color: blue;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.my {
+    padding-right: 28px;
+}
+
+@media(max-width:1320px) {
+    .header-1 {
+        height: 115vh;
+    }
+    .links ul {
+        position: relative;
+        top: 30px;
+        z-index: 1;
+        left: 20px;
+    }
+    .links {
+        width: max-content;
+    }
+    .links ul li a {
+        text-decoration: none;
+        padding-left: 12px;
+        font-size: 14px;
+        color: #ffffff;
+    }
+}
+
+@media(max-width:1200px) {
+    .header-1 {
+        height: 120vh;
+    }
+}
+@media(max-width:1250px) {
+    .header-1 {
+        height: 129vh;
+    }
+}
+
+@media(max-width:960px) {
+    .header-1 {
+        height: 144vh;
+    }
+}
+
+@media (max-width: 560px) {
+    .header-1 {
+        height: 197vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-1 {
+        height: 227vh;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .header-1 {
+        height: 187vh;
+    }
+}
+
+
+@media(max-width:760px) {
+    .head-img .logo {
+        padding-left: 4px;
+    }
+    .links ul li a {
+        padding-left: 11px;
+        font-size: 10px;
+    }
+    .links ul {
+        position: relative;
+        top: 30px;
+        z-index: 1;
+        left: 60px;
+    }
+    .headrd-icon {
+        position: relative;
+        right: 1rem;
+        bottom: 3rem;
+    }
+}
